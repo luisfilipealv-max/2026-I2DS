@@ -28,6 +28,8 @@
         foreach(var livro in pilhaLivros)
         {
             Console.WriteLine(livro);
+
+            
         }
 
 
