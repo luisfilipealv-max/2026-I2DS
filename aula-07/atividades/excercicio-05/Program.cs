@@ -18,7 +18,14 @@
         Console.WriteLine("Página atual: " + Histórico.Peek());
 
         // 3. Adicionar uma nova página
-        Console.WriteLine()
+        Console.WriteLine();
+        Console.Write("\nDigite uma nova página: ");
+        string novaPagina = Console.ReadLine();
 
+        Histórico.Push(novaPagina);
+
+        Console.WriteLine("Página adicionada!");
+
+    
     }
 }
